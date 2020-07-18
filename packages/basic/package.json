@@ -4,12 +4,13 @@
   "description": "Learn Gulp from the most basic steps.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build"
   },
   "keywords": [],
   "author": "PhatNguyen <phatnt.uit@gmail.com> (https://phatnguyenuit.github.io)",
   "license": "MIT",
   "devDependencies": {
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0"
   }
